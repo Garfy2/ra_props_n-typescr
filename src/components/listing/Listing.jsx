@@ -34,7 +34,7 @@ const Item = ({ item }) => {
           {currencySymbols[currencyCode] || '£'}
           {price}
         </p>
-        <p className="item-quantity level-medium">{quantity} left</p>
+        <p className="item-quantity level-low">{quantity} left</p>
       </div>
     </li>
   );
